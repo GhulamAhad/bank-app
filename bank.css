@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .all_login_materil_holder{
+    display: block;
+} */
+.app,.summary_cona{
+    display: none;
+}
+.all_login_materil_holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.imge_logo{
+    height: 40px;
+    border: none;
+    border-radius: 120px;
+}
+#text_id,#user_pin,.arrow{
+    background-color: rgba(230, 229, 225, 0.704);
+    text-align: center;
+    border: none;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 17px;
+}
+.main_history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 60px 0;
+}
+.balance__label{
+    font-size: 24px;
+    font-weight: bold;
+}
+.balance__value{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.all_history_method{
+    padding: 20x 0;
+    max-width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+}
+.movements__row{
+    border: 1px solid blanchedalmond ;
+    display: flex;
+    padding: 20px 0;
+    gap: 4rem;
+}
+.method_of_transfaring_lon_close{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.all_history_method{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.all_transfer_contaner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Transfer_box{
+    background:rgba(255, 171, 15, 0.889);
+    border-radius: 20px;
+    padding: 20px;
+}
+.Transfer_box h3{
+    padding: 10px;
+}
+.loan_box{
+    background:rgba(64, 103, 6, 0.461);
+    border-radius: 20px;
+    padding: 20px;
+}
+.loan_box h3{
+    padding: 10px;
+}
+.amount_lone_contaner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.close_box{
+    background: green;
+    border-radius: 20px;
+    padding: 20px;
+}
+.close_box h3{
+    padding: 10px;
+}
+.close_conataner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.t_id,.pin_code,.lone_value,.close_user_id,
+.close_user_pin_code{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align:center;
+    background-color: rgba(230, 229, 225, 0.704);
+}
+.arrow_lone_btn,.arrow_close_btn,
+.arrow_transfer_btn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.summary{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+.summary_cona{
+    padding: 50px;
+
+}
